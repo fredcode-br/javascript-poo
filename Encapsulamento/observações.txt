@@ -1,0 +1,7 @@
+****** Encapsulamento ******
+    A ação de esconder atributos e métodos de uma classe para que 
+    não sejam utilizados de forma errada.
+
+******  Acesso ******
+    Public: tem acesso dentro e fora da classe por "qualquer um"
+    Private: só pode ser acessado dentro da classe.
