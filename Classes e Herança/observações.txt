@@ -1,0 +1,5 @@
+****** Strict Mode ******
+    O modo estrito do JavaScript serve para impedir que alguns comportamentos
+    do JavaScript causem “falhas silenciosas” (transformando em erros que são 
+    lançados pelo interpretador) e corrigir alguns outros que podem induzir a 
+    bugs potenciais e comportamentos inesperados.
