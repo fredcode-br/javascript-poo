@@ -1,0 +1,41 @@
+****** Herança de protótipos ******
+
+    É a forma que originalmente o js pensou em os (classes), 
+criar modelos de objet passar heranças de objetos, porém as pessoas já estavam 
+acostumadas a Classe, então foi adaptado o modelo de Classes "em cima" da 
+herança de protótipos.
+
+****** This ******
+    Faz refereência a qual objeto está sendo manipulado. 
+
+****** Bind ******
+    Serve para ligar o valor de this a execução de uma função a um contexto específico
+
+****** Call ******
+    Assim como o bind liga o contexto a outro método, porém tem a funcionalidade de passar argumentos.
+
+****** Apply ******
+    Funciona como o método call, porém seus argumentos são passados em um array.
+
+****** Prototype *******
+    A forma do js trabalhar com orientação a objetos antes das classes serem adcionadas. Através desse 
+    método é possível herdar dados de outros objetos.
+
+****** Function vs Arrow Function ******
+    Function : function name() {}  
+    Arrow Function : const name = () => {}
+
+    Arrow function se difere da function em alguns pontos, um deles é na questão do this. 
+    Ela herda automaticamente o contexto de onde foi criada, não pode ser ligada a outros 
+    contextos e nem usar os métodos bind(), call() e apply(). Também não possui a propriedade prototype, 
+    portanto não podem ser usadas como funções contrutoras.
+
+****** Cadeia de Protótipos ******
+    O javascript vai "pulando" de protótipo em protótipo até achar determinado método ou atributo chamado.
+    Todos os objeto\elemento do js tem um protótipo inicial. Para acessar basta digitar .__proto__ na frente do 
+    objeto. Ex: array.__proto__
+
+    (por baixo dos panos, tudo no js é um objeto e tem um protótipo inicial)
+    
+******  Factory Function ******
+    É uma função que retorna um objeto.
